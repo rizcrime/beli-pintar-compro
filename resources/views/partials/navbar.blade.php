@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/" title="uiCookies:Stack">Stack</a>
+            <a class="navbar-brand" href="/" title="Beli Pintar">Stack</a>
         </div>
 
         <div id="navbar-collapse" class="navbar-collapse collapse">
