@@ -14,25 +14,37 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about',[
+        "title" => "About"
+    ]);
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact',[
+        "title" => "Contact"
+    ]);
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('index',[
+        "title" => "Home"
+    ]);
 });
 
 Route::get('/portfolio-single', function () {
-    return view('portfolio-single');
+    return view('portfolio-single',[
+        "title" => "Portfolio Single"
+    ]);
 });
 
 Route::get('/portfolio', function () {
-    return view('portfolio');
+    return view('portfolio',[
+        "title" => "Potfolio"
+    ]);
 });
 
 Route::get('/services', function () {
-    return view('services');
+    return view('services', [
+        "title" => "Services"
+    ]);
 });
