@@ -8,7 +8,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/" title="Beli Pintar">Stack</a>
+            <a class="navbar-brand" href="/" title="Beli Pintar">
+                <img src="{{ asset('assets/beli_pintar.png') }}" width="30" height="30" alt="Company Logo">
+            </a>
         </div>
 
         <div id="navbar-collapse" class="navbar-collapse collapse">
