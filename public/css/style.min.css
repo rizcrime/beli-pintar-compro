@@ -75,6 +75,7 @@ a:hover {
     margin-bottom: 10px;
     margin-top: 0;
     line-height: 64px;
+    vertical-align: middle;
     color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -83,6 +84,7 @@ a:hover {
     .probootstrap-hero h1 {
         font-size: 40px;
         line-height: 1.5;
+        vertical-align: middle;
     }
 }
 .probootstrap-navbar .dropdown-submenu > a:before,
@@ -101,6 +103,7 @@ a:hover {
     .hero-text-heading,
     .probootstrap-hero h1 {
         font-size: 30px;
+        vertical-align: middle;
     }
 }
 .flexslider .probootstrap-subheading,
@@ -1384,7 +1387,8 @@ a:hover {
 .flexslider,
 .flexslider .slides > li,
 .slider-height {
-    height: 700px;
+    height: 100vh;
+    overflow-y: auto;
 }
 .flexslider {
     background: 0 0;
@@ -1394,8 +1398,8 @@ a:hover {
 .flexslider .probootstrap-subheading {
     font-size: 20px;
 }
-.flexslider .probootstrap-slider-text {
-    margin-top: 400px;
+.flexslider .probootstrap-slider-text h1 {
+    margin-top: 20vh;
 }
 .flexslider .slides > li {
     background-size: cover;
@@ -1418,7 +1422,7 @@ a:hover {
         height: 400px;
     }
     .flexslider .probootstrap-slider-text {
-        margin-top: 150px;
+        margin-top: 25%;
     }
     .flexslider .flex-direction-nav {
         display: none;

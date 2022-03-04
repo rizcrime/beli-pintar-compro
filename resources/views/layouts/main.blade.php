@@ -17,14 +17,25 @@
 
 <body>
 
-    <section class="flexslider">
+    <section id="home" class="flexslider">
         <ul class="slides">
+            <li style="background-image: url(img/slider_3.jpg)" class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="probootstrap-slider-text text-center">
+                                <h1 class="probootstrap-heading">Where you meet your IT needs</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
             <li style="background-image: url(img/slider_1.jpg)" class="overlay">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading">We Create Interfaces</h1>
+                                <h1 class="probootstrap-heading">Our MISSION To be the leader in IT Solution Company delivering the highest quality, innovation, and customer services.</h1>
                             </div>
                         </div>
                     </div>
@@ -35,19 +46,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading">We Design Powerful Experiences</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </li>
-            <li style="background-image: url(img/slider_3.jpg)" class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading">We Bring Ideas To Life</h1>
+                                <h1 class="probootstrap-heading">Our VISION To provide compelling value by delivering managed services and end-to-end hardware to software and to enhance operational efficiency and cost benefit.</h1>
                             </div>
                         </div>
                     </div>
@@ -57,12 +56,13 @@
     </section>
 
     <!-- Fixed navbar -->
-    @include('partials/navbar')
+    @include('partials.navbar')
 
     @yield('main_content')
 
     <!-- Footer -->
-    @include('partials/footer')
+    @include('contact')
+    {{-- @include('partials.footer') --}}
 
     <!-- Modal login -->
     <div class="modal fadeInUp probootstrap-animated" id="loginModal" tabindex="-1" role="dialog"

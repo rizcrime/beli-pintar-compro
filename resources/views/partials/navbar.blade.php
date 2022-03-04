@@ -13,14 +13,14 @@
 
         <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
+                <li><a href="{{ ($title === "Home") ? '#home' : '/'}}">Home</a></li>
                 <li class="dropdown">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
                     <ul class="dropdown-menu">
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/portfolio">Portfolio</a></li>
-                        <li><a href="/portfolio-single">Portfolio Single</a></li>
-                        <li class="dropdown-submenu dropdown">
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#testimony">Testimony</a></li>
+                        <li><a href="#loyal-partner">Loyal Partner</a></li>
+                        {{-- <li class="dropdown-submenu dropdown">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Second Level Menu</a></li>
@@ -28,11 +28,11 @@
                                 <li><a href="#">Second Level Menu</a></li>
                                 <li><a href="#">Second Level Menu</a></li>
                             </ul>
-                        </li>
-                        <li><a href="/services">Services</a></li>
+                        </li> --}}
+                        <li><a href="#services">Services</a></li>
                     </ul>
                 </li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="probootstra-cta-button"><a href="#" class="btn" data-toggle="modal"
                         data-target="#loginModal">Log
                         in</a></li>

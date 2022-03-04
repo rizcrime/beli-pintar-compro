@@ -1,7 +1,4 @@
-@extends('layouts.main')
-
-@section('main_content')
-<section class="probootstrap-section probootstrap-bg-white">
+<section id="contact" class="probootstrap-section probootstrap-bg-white">
   <div class="container">
     <div class="row">
       <div class="col-md-5 probootstrap-animate" data-animate-effect="fadeIn">
@@ -30,24 +27,13 @@
       </div>
       <div class="col-md-6 col-md-push-1 probootstrap-animate" data-animate-effect="fadeIn">
         <h2>Get in touch</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam
-          soluta at.</p>
-
-        <h4>USA</h4>
+        <p>PT BELPIN BLESSIN INDONESIA</p>
         <ul class="probootstrap-contact-info">
-          <li><i class="icon-pin"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-          <li><i class="icon-email"></i><span>info@domain.com</span></li>
-          <li><i class="icon-phone"></i><span>+123 456 7890</span></li>
-        </ul>
-
-        <h4>Europe</h4>
-        <ul class="probootstrap-contact-info">
-          <li><i class="icon-pin"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-          <li><i class="icon-email"></i><span>info@domain.com</span></li>
-          <li><i class="icon-phone"></i><span>+123 456 7890</span></li>
+          <li><i class="icon-pin"></i> <span>Jalan Alaydrus Nomor 35, Kel. Petojo Utara, Kec. Gambir, Kota Adm. Jakarta Pusat, Prop. DKI Jakarta</span></li>
+          <li><i class="icon-email"></i><span>hans@belipintar.co.id</span></li>
+          <li><i class="icon-phone"></i><span>0216349318</span></li>
         </ul>
       </div>
     </div>
   </div>
 </section>
-@endsection
